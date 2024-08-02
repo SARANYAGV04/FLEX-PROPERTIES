@@ -1,0 +1,61 @@
+.flex{
+    display:flex;
+    background-color: black;
+}
+.flex>div{
+    background-color: red;
+    margin: 5px;
+    padding: 20px;
+}
+.flexwrap{
+    display:flex;
+    flex-wrap:wrap;
+    font-size: 20px;
+    background-color: black;
+}
+.flexwrap>div{
+    background-color: red;
+    margin: 5px;
+    padding: 20px;
+}
+.flexdir{
+    display:flex;
+    flex-wrap:wrap;
+    font-size: 20px;
+    background-color: black;
+    flex-direction: column;
+}
+.flexdir>div{
+    background-color: red;
+    margin: 5px;
+    padding: 20px;
+  
+}
+.justify{
+    display:flex;
+    flex-wrap:wrap;
+    font-size: 20px;
+    background-color: black;
+    justify-content: end;
+}
+.justify>div{
+    background-color: red;
+    margin: 5px;
+    padding: 20px;
+}
+.align{
+    display:flex;
+    flex-wrap:wrap;
+    font-size: 30px;
+    height: 200px;
+    background-color: black;
+    align-items: start;
+}
+.align>div{
+    background-color: red;
+    width: 100px;
+    margin: 10px;
+    line-height: 75px;
+
+    padding: 20px;
+}
